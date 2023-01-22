@@ -1,13 +1,6 @@
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:test
-    username: sa
-    password: '{cipher}980781b4230591d182ab048058961b29b389dc15d2bab216e26ce167a2ae1e81'
-
 token:
   expiration_time: 864000005
-  secret: secret
+  secret: '{cipher}AQBRsGnktDzZjeXWX48S3oO6lYnkWzVYc9+6rhrH8+PLFivcbUw+gcjxU4j6aDvBfFPJ7cNd1sKzsj31eLLyVTtMjU/gZwK+PdaXbuUkFUO6ErV+yg2tUOmacXhzKfPib/c0tnLmAYchjLV3616iDjuKV9XA8YYydPIz+lCTyOArO21FqvwxylJC+l8e/aynQ8K1FnLdwdKMQ7aZ59Afawa8pvkDp/weIWvivUGKzNzSlHoELwHUkMtamhSMMaOmwfIF3jCCRcjCBsTJmjPftEdna3WjCo+mn88iVhib1flMTmBWYKNguiXunu2ZFk2CEdVkw9jNj854B9wa05J9wtz0GITxom9975elmHX2Lp6QLEXAmLlMvMnpLjNln3U2rwU='
 
 gateway:
   ip: 172.30.1.68
