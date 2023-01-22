@@ -9,4 +9,4 @@ gateway:
   ip: 172.30.1.68
 
 order_service:
-  url: "localhost:8008/order-service/%s/orders"
+  url: "http://localhost:8008/orders-service/%s/orders"
