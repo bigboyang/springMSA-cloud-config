@@ -8,7 +8,7 @@ spring:
 gateway:
   ip: 172.30.1.68
 
-order_service:
+orders_service:
   url: "http://ORDERS-SERVICE/orders-service/%s/orders"
   exception: 
     orders_is_empty: User's orders are not found
