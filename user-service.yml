@@ -10,3 +10,5 @@ gateway:
 
 order_service:
   url: "http://ORDERS-SERVICE/orders-service/%s/orders"
+  exception: 
+    orders_is_empty: User's orders are not found
